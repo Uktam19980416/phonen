@@ -7,7 +7,7 @@ export default function Home() {
     <>
       <div className="bg-cloud bg-cover bg-center h-screen relative">
         <div className="absolute inset-0 bg-black bg-opacity-50"></div>
-        <div className="container mx-auto relative z-10 px-4 lg:px-0">
+        <div className="container w-full max-w-[1100px] mx-auto relative z-10 px-4 lg:px-0">
           <Navbar />
           <div className="mt-20">
             <h1 className="text-[32px] md:text-[48px] lg:text-[64px] text-white font-normal leading-[40px] md:leading-[56px] lg:leading-[70px] font-tenor">
@@ -38,7 +38,7 @@ export default function Home() {
       </div>
 
       <div className="bg-list bg-cover bg-no-repeat h-screen pt-20 px-4 lg:px-0">
-        <div className="container mx-auto space-y-5">
+        <div className="container w-full max-w-[1100px] mx-auto space-y-5">
           <h2 className="text-[32px] md:text-[48px] font-normal">Полезные статьи</h2>
           <p className="text-[20px] md:text-[32px] font-normal w-full md:w-4/5 leading-8 md:leading-10">
             На нашем сайте мы публикуем новости отрасли и исследовательские

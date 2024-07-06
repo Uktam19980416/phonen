@@ -7,7 +7,7 @@ import { FaInstagram } from 'react-icons/fa';
 
 const Footer: FC = () => {
   return (
-    <div className="container mx-auto py-10 px-4 lg:px-0">
+    <div className="container w-full max-w-[1100px] mx-auto py-10 px-4 lg:px-0">
       <div className="flex flex-col lg:flex-row justify-between gap-5">
         <div className="mb-4 lg:mb-0">
           <Image src={logo} alt="Logo" />
